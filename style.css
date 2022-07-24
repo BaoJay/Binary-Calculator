@@ -6,6 +6,9 @@ html {
 body {
   width: 33%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #res {
@@ -14,6 +17,7 @@ body {
   height: 48px;
   font-size: 20px;
   width: 90%;
+  margin: 5px;
 }
 
 #btns {
